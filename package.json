@@ -1,0 +1,48 @@
+{
+  "name": "cortex-m365-assistant",
+  "version": "0.1.0",
+  "description": "Cortex - Your personal AI-powered Microsoft 365 assistant running locally",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "dev": "tsc && electron .",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "cortex",
+    "microsoft365",
+    "outlook",
+    "calendar",
+    "tasks",
+    "ai",
+    "assistant",
+    "automation",
+    "personal-assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^2.15.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.5",
+    "electron": "^28.3.3",
+    "isomorphic-fetch": "^3.0.0",
+    "openai": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/isomorphic-fetch": "^0.0.39",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
