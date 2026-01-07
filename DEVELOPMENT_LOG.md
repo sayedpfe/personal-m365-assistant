@@ -444,9 +444,11 @@ DATA_RETENTION_DAYS=90
 - [Azure OpenAI Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
 
 ### Project Repository
-- **Location**: `c:\Users\saali\OneDrive - Microsoft\Documents\personal-m365-assistant`
-- **Git**: Not initialized yet
+- **GitHub**: https://github.com/sayedpfe/personal-m365-assistant
+- **Local Location**: `c:\Users\saali\OneDrive - Microsoft\Documents\personal-m365-assistant`
+- **Git**: Initialized and pushed to GitHub
 - **Version**: 0.1.0
+- **Author**: Sayed Ali (@sayedpfe)
 
 ---
 

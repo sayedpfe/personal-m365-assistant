@@ -1,5 +1,9 @@
 # Cortex - Your Personal Microsoft 365 Assistant
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-sayedpfe%2Fpersonal--m365--assistant-blue?logo=github)](https://github.com/sayedpfe/personal-m365-assistant)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
+
 Meet **Cortex** - your AI-powered desktop assistant that runs locally on your machine to help automate and manage your Microsoft 365 tasks. Just say "Hey Cortex" and get intelligent help with your emails, calendar, and tasks.
 
 ## Features
@@ -29,13 +33,18 @@ Meet **Cortex** - your AI-powered desktop assistant that runs locally on your ma
 
 ### Installation
 
-1. **Install dependencies**:
+1. **Clone the repository**:
    ```bash
-   cd "C:\Users\saali\OneDrive - Microsoft\Documents\personal-m365-assistant"
+   git clone https://github.com/sayedpfe/personal-m365-assistant.git
+   cd personal-m365-assistant
+   ```
+
+2. **Install dependencies**:
+   ```bash
    npm install
    ```
 
-2. **Configure environment variables**:
+3. **Configure environment variables**:
    - Copy `.env.example` to `.env`
    - Add your Azure OpenAI credentials:
      ```
@@ -44,12 +53,12 @@ Meet **Cortex** - your AI-powered desktop assistant that runs locally on your ma
      AZURE_OPENAI_DEPLOYMENT=gpt-4o
      ```
 
-3. **Build the project**:
+4. **Build the project**:
    ```bash
    npm run build
    ```
 
-4. **Run Phase 1 - Test connectivity**:
+5. **Run Phase 1 - Test connectivity**:
    ```bash
    npm run dev
    ```

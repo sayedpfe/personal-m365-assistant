@@ -22,8 +22,16 @@
     "automation",
     "personal-assistant"
   ],
-  "author": "",
+  "author": "Sayed Ali",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayedpfe/personal-m365-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sayedpfe/personal-m365-assistant/issues"
+  },
+  "homepage": "https://github.com/sayedpfe/personal-m365-assistant#readme",
   "dependencies": {
     "@azure/msal-node": "^2.15.0",
     "@microsoft/microsoft-graph-client": "^3.0.7",
